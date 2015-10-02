@@ -19,3 +19,4 @@ cd ec2-hadoop-scripts-master/scripts
 cd ~/ec2-hadoop-scripts-master/scripts
 ./slave.sh &lt;private hostname of slave instance&gt;</code></pre>
 7. Follow the instructions on screen.
+8. To check the installation, first make sure that DFS and YARN are started, then browse `http://<ip of master instance>:8088/` to check results.
