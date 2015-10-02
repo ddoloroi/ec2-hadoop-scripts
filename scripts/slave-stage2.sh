@@ -38,3 +38,5 @@ echo "${tag}SU to Hadoop user."
 su hadoopuser <<EOSU
 bash ~/files/slave-hadoop.sh
 EOSU
+
+reboot

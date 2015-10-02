@@ -41,4 +41,4 @@ ssh -i ../files/ec2.pem "ubuntu@${slave}" "bash ~/slave-stage1.sh"
 
 echo $slave >> /home/hadoopuser/hadoop/etc/hadoop/slaves
 
-echo "${tag}Install completed. Please restart the slave instance then DFS and YARN."
+echo "${tag}Installation completed. Please restart DFS and YARN."
